@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #4B3832;
+}
+
+ul {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+nav li + li {
+    margin-left: 140px;
+}
+
+a {
+    color: #bbaaa1; /* #EBDCB2; */
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover { 
+    color:#ffffff;
+    transition: 0.2s ease-in;
+}
+
+body {
+    background-color: #EBDCB2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INDEX + ABOUT US*/
+
+.presentation {
+    background-image: url(../images/index-header-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    padding-top: 15%;
+    padding-bottom: 20%;
+    font-family: fantasy;
+    font-size: 600%;
+    font-weight: normal;
+    color: #fff7ce;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #6f4d43;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #6f4d43;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #423e3e;
+    color: #827164;
+    text-align: center;
+}
+
+.article {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #EBDCB2;
+} 
+
+.article:hover {
+    background-color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.article-text {
+    padding: 25px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.article-text p {
+    padding-bottom: 15px;
+}
+
+/* PRODUCTS + MENU */
+
+.products {
+    margin: 38px auto;
+    width: 70%;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.products-tables {
+    margin-top: 20px;
+}
+
+.table-headings {
+    background-color: #f1f1f1;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+table {
+    margin: 20px auto; /* выравнивание таблицы по середине */
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid #f1f1f1;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-spacing: 1px solid #e0e0e0;
+    border: 1px solid #f1f1f1; 
+}
