@@ -41,7 +41,7 @@ body {
 /* INDEX + ABOUT US*/
 
 .presentation {
-    background-image: url(../images/index-header-bg.jpg);
+    background-image: url(./images/index-header-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
